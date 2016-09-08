@@ -10,8 +10,8 @@
 
 namespace DWS_Lite.lang {
     using System;
-    
-    
+
+
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -22,16 +22,16 @@ namespace DWS_Lite.lang {
     [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    internal class tr_TR {
-        
+    internal class zh_CN {
+
         private static global::System.Resources.ResourceManager resourceMan;
-        
+
         private static global::System.Globalization.CultureInfo resourceCulture;
-        
+
         [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal tr_TR() {
+        internal zh_CN() {
         }
-        
+
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
@@ -39,13 +39,13 @@ namespace DWS_Lite.lang {
         internal static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DWS_Lite.lang.tr-TR", typeof(tr_TR).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DWS_Lite.lang.zh-CN", typeof(zh_CN).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
             }
         }
-        
+
         /// <summary>
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
@@ -59,345 +59,393 @@ namespace DWS_Lite.lang {
                 resourceCulture = value;
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Tüm Metro Uygulamalarını Sil.
+        ///   Looks up a localized string similar to 删除所有 Windows 10 的 Metro 应用.
         /// </summary>
         internal static string btnDeleteAllWindows10Apps {
             get {
                 return ResourceManager.GetString("btnDeleteAllWindows10Apps", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to One Drive&apos;ı Sil.
+        ///   Looks up a localized string similar to 删除 One Drive.
         /// </summary>
         internal static string btnDeleteOneDrive {
             get {
                 return ResourceManager.GetString("btnDeleteOneDrive", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 修正屏幕不旋转.
+        /// </summary>
+        internal static string btnFixRotateScreen {
+            get {
+                return ResourceManager.GetString("btnFixRotateScreen", resourceCulture);
+            }
+        }
         
         /// <summary>
-        ///   Looks up a localized string similar to Hosts Dosyasını Aç ve Düzenle.
+        ///   Looks up a localized string similar to 打开并编辑 HOSTS 文件.
         /// </summary>
         internal static string btnOpenAndEditHosts {
             get {
                 return ResourceManager.GetString("btnOpenAndEditHosts", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Profesyonel Modu Etkinleştir.
+        ///   Looks up a localized string similar to 开启专业模式.
         /// </summary>
         internal static string btnProfessionalMode {
             get {
                 return ResourceManager.GetString("btnProfessionalMode", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Sistemi Geri Düzelt.
+        ///   Looks up a localized string similar to 还原系统.
         /// </summary>
         internal static string btnRestoreSystem {
             get {
                 return ResourceManager.GetString("btnRestoreSystem", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Casus Domainleri Hosts Dosyasına Ekle, ve Windows Firewallda Engelle.
+        ///   Looks up a localized string similar to 添加监视域名到 HOSTS 文件，并在 Windows 防火墙中添加阻止规则.
         /// </summary>
         internal static string checkBoxAddToHosts {
             get {
                 return ResourceManager.GetString("checkBoxAddToHosts", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Sistem Geri Yükleme Noktası Oluştur.
+        ///   Looks up a localized string similar to 创建系统还原点.
         /// </summary>
         internal static string checkBoxCreateSystemRestorePoint {
             get {
                 return ResourceManager.GetString("checkBoxCreateSystemRestorePoint", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Windows 10 Metro Uygulamalarını Sil.
+        ///   Looks up a localized string similar to 删除 GWX(获取 Windows X).
+        /// </summary>
+        internal static string checkBoxDeleteGWX {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteGWX", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 删除 Windows 10 的 Metro 应用.
         /// </summary>
         internal static string checkBoxDeleteWindows10Apps {
             get {
                 return ResourceManager.GetString("checkBoxDeleteWindows10Apps", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Özel Ayarları Devre Dışı Bırak.
+        ///   Looks up a localized string similar to 删除用于监视的更新.
+        /// </summary>
+        internal static string checkBoxDeleteWindows78Updates {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteWindows78Updates", resourceCulture);
+            }
+        }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 禁用隐私设置.
         /// </summary>
         internal static string checkBoxDisablePrivateSettings {
             get {
                 return ResourceManager.GetString("checkBoxDisablePrivateSettings", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Windows Defenderı Devre Dışı Bırak.
+        ///   Looks up a localized string similar to 禁用 Windows Defender.
         /// </summary>
         internal static string checkBoxDisableWindowsDefender {
             get {
                 return ResourceManager.GetString("checkBoxDisableWindowsDefender", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Telemetriyi ve Keylogger&apos;ı Sil.
+        ///   Looks up a localized string similar to 删除键盘记录程序和遥测程序.
         /// </summary>
         internal static string checkBoxKeyLoggerAndTelemetry {
             get {
                 return ResourceManager.GetString("checkBoxKeyLoggerAndTelemetry", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Varsayılan Fotoğraf Görüntüleyiciyi etkinleştir.
+        ///   Looks up a localized string similar to 设置默认的 Windows 照片查看器.
         /// </summary>
         internal static string checkBoxSetDefaultPhoto {
             get {
                 return ResourceManager.GetString("checkBoxSetDefaultPhoto", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Casus İşlemleri Devre Dışı Bırak.
+        ///   Looks up a localized string similar to 禁用监视计划任务.
         /// </summary>
         internal static string checkBoxSPYTasks {
             get {
                 return ResourceManager.GetString("checkBoxSPYTasks", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Başarılı.
+        ///   Looks up a localized string similar to 完成.
         /// </summary>
         internal static string Complete {
             get {
                 return ResourceManager.GetString("Complete", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Başarılı!
-        ///Casus Uyguluamaları Devredışı Bırakmak İçin Yeniden Başlatma Gerekiyor.Yeniden Başlatılsınmı ?.
+        ///   Looks up a localized string similar to 完成！
+        ///需要重启以禁用所有的监视软件。
+        ///现在就重启？.
         /// </summary>
         internal static string CompleteMSG {
             get {
                 return ResourceManager.GetString("CompleteMSG", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Sil.
+        ///   Looks up a localized string similar to 删除.
         /// </summary>
         internal static string Delete {
             get {
                 return ResourceManager.GetString("Delete", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Uygulamaları Sil.
+        ///   Looks up a localized string similar to 删除应用.
         /// </summary>
         internal static string DeleteApps {
             get {
                 return ResourceManager.GetString("DeleteApps", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Devredışı Bırak.
+        ///   Looks up a localized string similar to 禁用.
         /// </summary>
         internal static string Disable {
             get {
                 return ResourceManager.GetString("Disable", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Etkinleştir.
+        ///   Looks up a localized string similar to 启用.
         /// </summary>
         internal static string Enable {
             get {
                 return ResourceManager.GetString("Enable", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Hata.
+        ///   Looks up a localized string similar to 错误.
         /// </summary>
         internal static string Error {
             get {
                 return ResourceManager.GetString("Error", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Başarılı. Hatalar - {0}Casus Uyguluamaları Devredışı Bırakmak İçin Yeniden Başlatma Gerekiyor.Yeniden Başlatılsınmı ?.
+        ///   Looks up a localized string similar to 完成。 错误 - {0}
+        ///需要重启以禁用所有的监视软件。
+        ///现在就重启？.
         /// </summary>
         internal static string ErrorMSG {
             get {
                 return ResourceManager.GetString("ErrorMSG", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to  msosync.exe yolunu belirtin. eğer Office 2016 standart olarak C&apos;ye yüklü ise, &quot;Cancel&quot; a basın..
+        ///   Looks up a localized string similar to Please specify the path to the file msosync.exe. If Office 2016 is installed as standard on the drive C, press &quot;Cancel&quot;.
         /// </summary>
         internal static string FindOffice16FileT {
             get {
                 return ResourceManager.GetString("FindOffice16FileT", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Bilgi.
+        ///   Looks up a localized string similar to 信息.
         /// </summary>
         internal static string Info {
             get {
                 return ResourceManager.GetString("Info", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Metro Uygulamaları Geri Dönüş Olmadan Tamamen Silindi..
+        ///   Looks up a localized string similar to METRO 应用将永久删除，无法恢复。.
         /// </summary>
         internal static string labelInfoDeleteMetroApps {
             get {
                 return ResourceManager.GetString("labelInfoDeleteMetroApps", resourceCulture);
             }
         }
+
+        /// <summary>
+        ///   Looks up a localized string similar to 卸载更新程序：.
+        /// </summary>
+        internal static string labelUninstallUpdates {
+            get {
+                return ResourceManager.GetString("labelUninstallUpdates", resourceCulture);
+            }
+        }
         
         /// <summary>
-        ///   Looks up a localized string similar to Linkler.
+        ///   Looks up a localized string similar to 链接.
         /// </summary>
         internal static string Links {
             get {
                 return ResourceManager.GetString("Links", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to OK butonuna basın ve 15 Dakika Bekleyin.
+        ///   Looks up a localized string similar to 点击 OK，并等待 15 分钟.
         /// </summary>
         internal static string PressOkAndWait15 {
             get {
                 return ResourceManager.GetString("PressOkAndWait15", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Sorular.
+        ///   Looks up a localized string similar to 问题.
         /// </summary>
         internal static string Question {
             get {
                 return ResourceManager.GetString("Question", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Bu Yazılım Windows 7/8/8.1/10&apos;daki casus yazılımları temizler .
-        ///Program Github ile yapılmıştır ve açık kaynak kodludur..Bu Program Takip Edilmeyi Tamamen Yok eder. Telemetriden bazı şeyleri siler ve etkisizleştirir,Windows Defender&apos;ı, Cortana&apos;yı, ve daha bir çok şeyi siler. Programı Windows Update&apos;i devredışı bırakarak takip edilme riskinizi ortadan kaldırır.
-        ///Metro uygulamaları silmek gerçekten faydalı çünkü arkaplanda çalışarak belleğinizi yorar. ve tabiki takip edilmenize olanak sağlar.Ayrıca program birç [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to 这个程序是用来破坏 Windows 7/8/8.1/10 上的监视功能的。
+        ///整个程序是开源的，托管在 Github 上。
+        ///它能完全地破坏监视功能。移除遥测的一些内容并关掉其他的内容，禁用 Windows Defender、Cortana 和还有其他一些的东西。程序可禁用 Windows 更新，让你保持匿名并不再接收新的监视软件的更新。
+        ///删除 Metro 应用也是相当有用的，因为这些应用在后台运行，占用内存，其中的一些也会监视你的电脑。
+        ///还有，程序也能阻止微软收集数据的 IP 地址，并可以添加几乎所有的监视软件的 ip 到 HOSTS 文件中。
+        ///程序操作的大多数部分是不可逆的，甚至系统还原也不能回退更改。
+        ///现在来说，它是相当有效的程序。它正处在开发中，并拥有一个由 Windows 10 的用户组成的社区。其中一些人帮助重写代码以提高程序的高效性，另一些则将程序翻译成其他语言。
+        ///
+        ///命令行参数：
+        ////lang= - 设置程序启动时的语言。例子: /lang=en
+        ////deleteapp= - 允许你删除 Windows 的一个 Metro 应用。 例子: /deleteapp=bing or /deleteapp=no [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ReadMeTextBox {
             get {
                 return ResourceManager.GetString("ReadMeTextBox", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Eminmisiniz ?.
+        ///   Looks up a localized string similar to 真的？.
         /// </summary>
         internal static string Really {
             get {
                 return ResourceManager.GetString("Really", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Eski DWS firewall kurallarını etkisizleştir..
+        ///   Looks up a localized string similar to 移除所有旧的 DWS 防火墙规则.
         /// </summary>
         internal static string RemoveAllOldFirewallRules {
             get {
                 return ResourceManager.GetString("RemoveAllOldFirewallRules", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Bug Bildir..
+        ///   Looks up a localized string similar to 报告 bug.
         /// </summary>
         internal static string ReportABug {
             get {
                 return ResourceManager.GetString("ReportABug", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Yeniden Başlatma Gerekiyor.Yeniden Başlatılsınmı?.
+        ///   Looks up a localized string similar to 需要重启。
+        ///现在就重启？.
         /// </summary>
         internal static string Restart {
             get {
                 return ResourceManager.GetString("Restart", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Hakkında.
+        ///   Looks up a localized string similar to 关于.
         /// </summary>
         internal static string tabPageAbout {
             get {
                 return ResourceManager.GetString("tabPageAbout", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Ana.
+        ///   Looks up a localized string similar to 主界面.
         /// </summary>
         internal static string tabPageMain {
             get {
                 return ResourceManager.GetString("tabPageMain", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Beni Oku.
+        ///   Looks up a localized string similar to 自述.
         /// </summary>
         internal static string tabPageReadMe {
             get {
                 return ResourceManager.GetString("tabPageReadMe", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Ayarlar.
+        ///   Looks up a localized string similar to 设置.
         /// </summary>
         internal static string tabPageSettings {
             get {
                 return ResourceManager.GetString("tabPageSettings", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Hizmetler.
+        ///   Looks up a localized string similar to 工具.
         /// </summary>
         internal static string tabPageUtilites {
             get {
                 return ResourceManager.GetString("tabPageUtilites", resourceCulture);
             }
         }
-        
+
         /// <summary>
-        ///   Looks up a localized string similar to Uyarı.
+        ///   Looks up a localized string similar to 警告.
         /// </summary>
         internal static string Warning {
             get {

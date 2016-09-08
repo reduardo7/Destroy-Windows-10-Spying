@@ -8,15 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.CodeDom.Compiler;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Resources;
-using System.Runtime.CompilerServices;
-
 namespace DWS_Lite.lang {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -24,27 +19,27 @@ namespace DWS_Lite.lang {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
-    [DebuggerNonUserCode()]
-    [CompilerGenerated()]
-    internal class it_CH {
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
+    internal class fa_IR {
         
-        private static ResourceManager resourceMan;
+        private static global::System.Resources.ResourceManager resourceMan;
         
-        private static CultureInfo resourceCulture;
+        private static global::System.Globalization.CultureInfo resourceCulture;
         
-        [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
-        internal it_CH() {
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        internal fa_IR() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        internal static ResourceManager ResourceManager {
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
-                if (ReferenceEquals(resourceMan, null)) {
-                    var temp = new ResourceManager("DWS_Lite.lang.it-CH", typeof(it_CH).Assembly);
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DWS_Lite.lang.fa-IR", typeof(fa_IR).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -55,8 +50,8 @@ namespace DWS_Lite.lang {
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        internal static CultureInfo Culture {
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -66,7 +61,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancellare tutti applicazioni Metro di Win 10.
+        ///   Looks up a localized string similar to پاکسازی تمامی اپلیکیشن ها ویندوز 10.
         /// </summary>
         internal static string btnDeleteAllWindows10Apps {
             get {
@@ -75,7 +70,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancellare One Drive.
+        ///   Looks up a localized string similar to حذف وان درایو.
         /// </summary>
         internal static string btnDeleteOneDrive {
             get {
@@ -84,7 +79,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Aprire hosts per modificare.
+        ///   Looks up a localized string similar to حل مشکل چرخش صفحه.
+        /// </summary>
+        internal static string btnFixRotateScreen {
+            get {
+                return ResourceManager.GetString("btnFixRotateScreen", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Hosts بازکردن و ویرایش فایل.
         /// </summary>
         internal static string btnOpenAndEditHosts {
             get {
@@ -93,7 +97,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Attivare la modalità Proffesionale.
+        ///   Looks up a localized string similar to فعالسازی حالت حرفه ای.
         /// </summary>
         internal static string btnProfessionalMode {
             get {
@@ -102,7 +106,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ripristinare il sistema.
+        ///   Looks up a localized string similar to بازگردانی سیستم.
         /// </summary>
         internal static string btnRestoreSystem {
             get {
@@ -111,7 +115,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Aggiungere domini spia in hosts, Firewall.
+        ///   Looks up a localized string similar to اضافه کن , و در فایروال بلاک کن hosts دامنه های جاسوسی را به فایل.
         /// </summary>
         internal static string checkBoxAddToHosts {
             get {
@@ -120,7 +124,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Creare un punto di ripristino.
+        ///   Looks up a localized string similar to ایجاد نقطه بازگردانی.
         /// </summary>
         internal static string checkBoxCreateSystemRestorePoint {
             get {
@@ -129,7 +133,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancellare tutti applicazioni Metro di Win 10.
+        ///   Looks up a localized string similar to GWX حذف.
+        /// </summary>
+        internal static string checkBoxDeleteGWX {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteGWX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to حذف اپلیکیشن ویندوز 10.
         /// </summary>
         internal static string checkBoxDeleteWindows10Apps {
             get {
@@ -138,7 +151,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabilitare le impostazioni private.
+        ///   Looks up a localized string similar to حذف آپدیت های جاسوسی.
+        /// </summary>
+        internal static string checkBoxDeleteWindows78Updates {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteWindows78Updates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to غیرفعال کردن تنظیمات مخفی.
         /// </summary>
         internal static string checkBoxDisablePrivateSettings {
             get {
@@ -147,7 +169,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabilitare Windows Defender.
+        ///   Looks up a localized string similar to Windows Defender غیرفعال کردن.
         /// </summary>
         internal static string checkBoxDisableWindowsDefender {
             get {
@@ -156,7 +178,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabilitare KeyLogger e telemetria.
+        ///   Looks up a localized string similar to telemtry حذف کیلاگرها و.
         /// </summary>
         internal static string checkBoxKeyLoggerAndTelemetry {
             get {
@@ -165,7 +187,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Impostare un visualizzatore di foto standard.
+        ///   Looks up a localized string similar to تنظیم نمایش دهنده عکس پیش فرض ویندوز.
         /// </summary>
         internal static string checkBoxSetDefaultPhoto {
             get {
@@ -174,7 +196,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabilitare programmi spia.
+        ///   Looks up a localized string similar to غیرفعال کردن برنامه های جاسوسی.
         /// </summary>
         internal static string checkBoxSPYTasks {
             get {
@@ -183,7 +205,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Completato.
+        ///   Looks up a localized string similar to کامل شد.
         /// </summary>
         internal static string Complete {
             get {
@@ -192,9 +214,9 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Completato.
-        ///E&apos; necessario riavviare il PC.
-        ///Riavviare ora?.
+        ///   Looks up a localized string similar to کامل شد
+        ///نیازمند یک ریستارت است برای اعمال تغییرات
+        ///ایا ریستارت میکنید؟.
         /// </summary>
         internal static string CompleteMSG {
             get {
@@ -203,7 +225,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancellare.
+        ///   Looks up a localized string similar to حذف.
         /// </summary>
         internal static string Delete {
             get {
@@ -212,7 +234,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Cancellare le applicazioni.
+        ///   Looks up a localized string similar to حذف اپلیکیشن.
         /// </summary>
         internal static string DeleteApps {
             get {
@@ -221,7 +243,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Disabilitare.
+        ///   Looks up a localized string similar to غیرفعالسازی.
         /// </summary>
         internal static string Disable {
             get {
@@ -230,7 +252,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Abilitare.
+        ///   Looks up a localized string similar to فعالسازی.
         /// </summary>
         internal static string Enable {
             get {
@@ -239,7 +261,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Errore.
+        ///   Looks up a localized string similar to خطا.
         /// </summary>
         internal static string Error {
             get {
@@ -248,9 +270,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Oh qualcosa è andato storto. Errore - {0}
-        ///Comunque bisogna riavviare il PC.
-        ///Riavviare ora?.
+        ///   Looks up a localized string similar to نیازمند ریستارت است , آیا ریستارت میکنید؟ Errors - {0} کامل شد.
         /// </summary>
         internal static string ErrorMSG {
             get {
@@ -268,7 +288,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Informazione.
+        ///   Looks up a localized string similar to اطلاعات.
         /// </summary>
         internal static string Info {
             get {
@@ -277,7 +297,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to alcune applicazioni Metro vengono cacnellati definitivamente.
+        ///   Looks up a localized string similar to اپلیکیشن ها تمامی حذف شدند بطور دائم , امکان بازگردانی وجود ندارد.
         /// </summary>
         internal static string labelInfoDeleteMetroApps {
             get {
@@ -286,7 +306,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to collegamenti.
+        ///   Looks up a localized string similar to حذف آپدیت ها:.
+        /// </summary>
+        internal static string labelUninstallUpdates {
+            get {
+                return ResourceManager.GetString("labelUninstallUpdates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to لینک ها.
         /// </summary>
         internal static string Links {
             get {
@@ -295,7 +324,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Premere Ok ed aspettare 15 minuti..
+        ///   Looks up a localized string similar to و 15 دقیقه صبر کنید Ok بزنید روی.
         /// </summary>
         internal static string PressOkAndWait15 {
             get {
@@ -304,7 +333,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Domanda.
+        ///   Looks up a localized string similar to سوال.
         /// </summary>
         internal static string Question {
             get {
@@ -313,10 +342,11 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Questo software cancella spionaggio in Windows 7/8/8.1/10
-        ///questo software ha il codice sorgente aperto e si trova in github.
-        ///Questo programma elimina completamente spionaggio. Rimuove alcuni elementi di telemetria e l&apos;altra disabilita, inoltre disabilita Windows Defender, Kortanu, e molt&apos; altro. Inoltre  il programma disabilita Windows Update, che consente di mantenere l&apos;anonimato e non  ricevere aggiornamenti su nuovi spyware.
-        ///L&apos;eliminazione delle applicazioni Metro  è ottimo, perché questi lavorano in  [rest of string was truncated]&quot;;.
+        ///   Looks up a localized string similar to This program destroys spying on Windows 7/8/8.1/10.
+        ///The program is open source code, which is on github.
+        ///This program completely destroys spying. Removes some elements of telemetry and the other turns off, disables Windows Defender, Cortana, and much more. As the program disables Windows Update, which allows you to remain anonymous and not to receive updates of new spyware.
+        ///The delete Metro applications is very good, because they work in the background, and devour memory, and some of them spying on you.
+        ///Als [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ReadMeTextBox {
             get {
@@ -325,7 +355,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Realmente?.
+        ///   Looks up a localized string similar to واقعا؟.
         /// </summary>
         internal static string Really {
             get {
@@ -334,7 +364,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Rimuovere vecchie impostazioni di Firewall.
+        ///   Looks up a localized string similar to DWS حذف شد تمامی قوانین فایروال مربوط به.
         /// </summary>
         internal static string RemoveAllOldFirewallRules {
             get {
@@ -343,7 +373,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Riportare bug.
+        ///   Looks up a localized string similar to گزارش باگ.
         /// </summary>
         internal static string ReportABug {
             get {
@@ -352,8 +382,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to E&apos; necessario riavviare il sistema
-        ///Riavviare ora?.
+        ///   Looks up a localized string similar to نیازمند ریستارت , آیا ریستارت شود؟.
         /// </summary>
         internal static string Restart {
             get {
@@ -362,7 +391,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Informazioni.
+        ///   Looks up a localized string similar to درباره.
         /// </summary>
         internal static string tabPageAbout {
             get {
@@ -371,7 +400,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pagina principale.
+        ///   Looks up a localized string similar to صفحه اصلی.
         /// </summary>
         internal static string tabPageMain {
             get {
@@ -380,7 +409,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Leggimi.
+        ///   Looks up a localized string similar to بخوانید.
         /// </summary>
         internal static string tabPageReadMe {
             get {
@@ -389,7 +418,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Impostazioni.
+        ///   Looks up a localized string similar to تنظیمات.
         /// </summary>
         internal static string tabPageSettings {
             get {
@@ -398,7 +427,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Pagine utili.
+        ///   Looks up a localized string similar to ابزارها.
         /// </summary>
         internal static string tabPageUtilites {
             get {
@@ -407,7 +436,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Attenzione.
+        ///   Looks up a localized string similar to هشدار.
         /// </summary>
         internal static string Warning {
             get {

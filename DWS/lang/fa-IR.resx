@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
   <!-- 
     Microsoft ResX Schema 
@@ -118,144 +118,143 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="btnDeleteAllWindows10Apps" xml:space="preserve">
-    <value>Verwijder alle Metro apps (win10)</value>
+    <value>پاکسازی تمامی اپلیکیشن ها ویندوز 10</value>
   </data>
   <data name="btnDeleteOneDrive" xml:space="preserve">
-    <value>Verwijder OneDrive</value>
+    <value>حذف وان درایو</value>
+  </data>
+  <data name="btnFixRotateScreen" xml:space="preserve">
+    <value>حل مشکل چرخش صفحه</value>
   </data>
   <data name="btnOpenAndEditHosts" xml:space="preserve">
-    <value>Open en bewerk het HOSTS bestand</value>
+    <value>Hosts بازکردن و ویرایش فایل</value>
   </data>
   <data name="btnProfessionalMode" xml:space="preserve">
-    <value>Schakel de Proffesional Modus in</value>
+    <value>فعالسازی حالت حرفه ای</value>
   </data>
   <data name="btnRestoreSystem" xml:space="preserve">
-    <value>Herstel Systeem</value>
+    <value>بازگردانی سیستم</value>
   </data>
   <data name="checkBoxAddToHosts" xml:space="preserve">
-    <value>Voeg spionage domeinen aan het Hosts bestand toe, en blokkeer in Windows Firewall</value>
+    <value>اضافه کن , و در فایروال بلاک کن hosts دامنه های جاسوسی را به فایل</value>
   </data>
   <data name="checkBoxCreateSystemRestorePoint" xml:space="preserve">
-    <value>Maak een herstelpunt aan.</value>
-  </data>
-  <data name="checkBoxDeleteWindows10Apps" xml:space="preserve">
-    <value>Verwijder Windows 10 Metro Apps</value>
-  </data>
-  <data name="checkBoxDisablePrivateSettings" xml:space="preserve">
-    <value>Schakel privacy instellingen uit</value>
-  </data>
-  <data name="checkBoxDisableWindowsDefender" xml:space="preserve">
-    <value>Schakel Windows Defender uit</value>
-  </data>
-  <data name="checkBoxKeyLoggerAndTelemetry" xml:space="preserve">
-    <value>Verwijder de Keylogger, en schakel Telematrie uit</value>
-  </data>
-  <data name="checkBoxSetDefaultPhoto" xml:space="preserve">
-    <value>Zet de standaard Windows Photo viewer</value>
-  </data>
-  <data name="checkBoxSPYTasks" xml:space="preserve">
-    <value>Schakel spionage services en taken uit</value>
-  </data>
-  <data name="Complete" xml:space="preserve">
-    <value>Voltooit!</value>
-  </data>
-  <data name="CompleteMSG" xml:space="preserve">
-    <value>Voltooit!
-Opnieuw upstarten is verijst om alle spyware uit te kunnen schakelen.
-Nu opnieuw opstarten?</value>
-  </data>
-  <data name="Delete" xml:space="preserve">
-    <value>Verwijder</value>
-  </data>
-  <data name="DeleteApps" xml:space="preserve">
-    <value>Verwijder</value>
-  </data>
-  <data name="Disable" xml:space="preserve">
-    <value>Uitschakelen</value>
-  </data>
-  <data name="Enable" xml:space="preserve">
-    <value>Inschakelen</value>
-  </data>
-  <data name="Error" xml:space="preserve">
-    <value>Fout!</value>
-  </data>
-  <data name="ErrorMSG" xml:space="preserve">
-    <value>Voltooit! Fouten - {0}
-Opnieuw upstarten is verijst om alle spyware uit te kunnen schakelen.
-Nu opnieuw opstarten?</value>
-  </data>
-  <data name="Info" xml:space="preserve">
-    <value>Info</value>
-  </data>
-  <data name="labelInfoDeleteMetroApps" xml:space="preserve">
-    <value>Metro apps worden permanent verwijderd, herstel is niet mogelijk.</value>
-  </data>
-  <data name="Links" xml:space="preserve">
-    <value>Links</value>
-  </data>
-  <data name="PressOkAndWait15" xml:space="preserve">
-    <value>Druk op OK en wacht 15 minuten</value>
-  </data>
-  <data name="Question" xml:space="preserve">
-    <value>Vraag</value>
-  </data>
-  <data name="Really" xml:space="preserve">
-    <value>Zeker?</value>
-  </data>
-  <data name="Restart" xml:space="preserve">
-    <value>Opnieuw opstarten verijst.
-Nu opnieuw opstarten?</value>
-  </data>
-  <data name="tabPageAbout" xml:space="preserve">
-    <value>Over</value>
-  </data>
-  <data name="tabPageMain" xml:space="preserve">
-    <value>Start</value>
-  </data>
-  <data name="tabPageReadMe" xml:space="preserve">
-    <value>ReadME</value>
-  </data>
-  <data name="tabPageSettings" xml:space="preserve">
-    <value>Instellingen</value>
-  </data>
-  <data name="tabPageUtilites" xml:space="preserve">
-    <value>Extra functies</value>
-  </data>
-  <data name="Warning" xml:space="preserve">
-    <value>Waarschuwing!</value>
-  </data>
-  <data name="RemoveAllOldFirewallRules" xml:space="preserve">
-    <value>Verwijder oude DWS instellingen (firewall)</value>
-  </data>
-  <data name="ReportABug" xml:space="preserve">
-    <value>Rapporteer een fout.</value>
-  </data>
-  <data name="ReadMeTextBox" xml:space="preserve">
-    <value>Dit Programma verwijderd de ingebouwde spyware in Windows 7, 8, 8.1, Server 2008-2012 R2 en 10.
-Het programma is Open-Source, de broncode is te vinden op Github.
-Dit programma verwijderd alle spyware die is ingebouwd door Microsoft in Windows. Sommige Elementen van telematrie worden verwijderd, en de andere worden uitgeschakeld.
-Het programma kan Windows Update uitschakelen, hierdoor blijf je annoniem omdat je geen nieuwe updates ontvangt van spyware.
-De verwijder Metro apps functie werkt zeer goed, Metro apps draaien in de achtergrond en nemen geheugen in beslag. Sommige apps bespioneren je.
-Veel IP adressen van Microsoft worden geblokkeerd, waar data naartoe gaat. De meeste spyware wordt in het HOSTS bestand en Windows Firewall geblokkeerd. 
-het meest van dit programma kan niet teruggedraait worden, zelfts niet na een windows herstel doormiddel van een herstelpunt.
-Op het moment is dit het meest effectieve programma, in het verwijderen van ingebouwde spyware in Windows 10.
-Het programma ontwikkeld en verbeterd een grote gemeenschap aan Windows 10 gebruikers. Sommigen helpen met het herschrijven van de code in een betere wijze, en sommigen helpen met het vertalen van het programma in andere talen.
-
-argumenten voor de opdrachtpromt:
-
-/lang= - zet de taal waarin het programma start. Voorbeeld: /lang=nl
-/deleteapp= - verwijderd een Metro app in windows. Voorbeeld: /deleteapp=bing of /deleteapp=note
-/destroy - verwijderd spyware.
-BELANGRIJK! De argumenten /destroy en /deleteapp= kunnen niet worden gecombineerd, en het argument /deleteapp= kan niet meerdere keren gebruikt worden.</value>
-  </data>
-  <data name="FindOffice16FileT" xml:space="preserve">
-    <value>wat is het pad naar het bestand "MSOSYNC.EXE". Als Microsoft Office 2016 is geïnstalleerd als standaard op schijf C:\, kies "Annuleren".</value>
+    <value>ایجاد نقطه بازگردانی</value>
   </data>
   <data name="checkBoxDeleteGWX" xml:space="preserve">
-    <value>
-Verwijder GWX</value>
+    <value>GWX حذف</value>
+  </data>
+  <data name="checkBoxDeleteWindows10Apps" xml:space="preserve">
+    <value>حذف اپلیکیشن ویندوز 10</value>
   </data>
   <data name="checkBoxDeleteWindows78Updates" xml:space="preserve">
-    <value>Verwijder spionage updates</value>
+    <value>حذف آپدیت های جاسوسی</value>
+  </data>
+  <data name="checkBoxDisablePrivateSettings" xml:space="preserve">
+    <value>غیرفعال کردن تنظیمات مخفی</value>
+  </data>
+  <data name="checkBoxDisableWindowsDefender" xml:space="preserve">
+    <value>Windows Defender غیرفعال کردن</value>
+  </data>
+  <data name="checkBoxKeyLoggerAndTelemetry" xml:space="preserve">
+    <value>telemtry حذف کیلاگرها و</value>
+  </data>
+  <data name="checkBoxSetDefaultPhoto" xml:space="preserve">
+    <value>تنظیم نمایش دهنده عکس پیش فرض ویندوز</value>
+  </data>
+  <data name="checkBoxSPYTasks" xml:space="preserve">
+    <value>غیرفعال کردن برنامه های جاسوسی</value>
+  </data>
+  <data name="Complete" xml:space="preserve">
+    <value>کامل شد</value>
+  </data>
+  <data name="CompleteMSG" xml:space="preserve">
+    <value>کامل شد
+نیازمند یک ریستارت است برای اعمال تغییرات
+ایا ریستارت میکنید؟</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>حذف</value>
+  </data>
+  <data name="DeleteApps" xml:space="preserve">
+    <value>حذف اپلیکیشن</value>
+  </data>
+  <data name="Disable" xml:space="preserve">
+    <value>غیرفعالسازی</value>
+  </data>
+  <data name="Enable" xml:space="preserve">
+    <value>فعالسازی</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>خطا</value>
+  </data>
+  <data name="ErrorMSG" xml:space="preserve">
+    <value>نیازمند ریستارت است , آیا ریستارت میکنید؟ Errors - {0} کامل شد</value>
+  </data>
+  <data name="FindOffice16FileT" xml:space="preserve">
+    <value>Please specify the path to the file msosync.exe. If Office 2016 is installed as standard on the drive C, press "Cancel"</value>
+  </data>
+  <data name="Info" xml:space="preserve">
+    <value>اطلاعات</value>
+  </data>
+  <data name="labelInfoDeleteMetroApps" xml:space="preserve">
+    <value>اپلیکیشن ها تمامی حذف شدند بطور دائم , امکان بازگردانی وجود ندارد</value>
+  </data>
+  <data name="labelUninstallUpdates" xml:space="preserve">
+    <value>حذف آپدیت ها:</value>
+  </data>
+  <data name="Links" xml:space="preserve">
+    <value>لینک ها</value>
+  </data>
+  <data name="PressOkAndWait15" xml:space="preserve">
+    <value>و 15 دقیقه صبر کنید Ok بزنید روی</value>
+  </data>
+  <data name="Question" xml:space="preserve">
+    <value>سوال</value>
+  </data>
+  <data name="ReadMeTextBox" xml:space="preserve">
+    <value>This program destroys spying on Windows 7/8/8.1/10.
+The program is open source code, which is on github.
+This program completely destroys spying. Removes some elements of telemetry and the other turns off, disables Windows Defender, Cortana, and much more. As the program disables Windows Update, which allows you to remain anonymous and not to receive updates of new spyware.
+The delete Metro applications is very good, because they work in the background, and devour memory, and some of them spying on you.
+Also, the program blocks many IP address of Microsoft, which are the data, and adds the most spyware to hosts.
+Almost all of the program is irreversible and should not be rolled back even after a system restore point.
+At the moment it is the most effective program. The program is developing and improving a large community of users of Windows 10, some help to rewrite the code to a more productive, and some help with the translation of the program into other languages.
+
+Arguments for the command line:
+/lang= - set the language of the program starts. Example: /lang=en
+/deleteapp= - allows you to delete an application Metro in Windows. Example: /deleteapp=bing or /deleteapp=note
+/destroy - an argument for removing spyware.
+IMPORTANT! Arguments /destroy and /deleteapp= can not be combined, and the argument /deleteapp= can not be used several times.</value>
+  </data>
+  <data name="Really" xml:space="preserve">
+    <value>واقعا؟</value>
+  </data>
+  <data name="RemoveAllOldFirewallRules" xml:space="preserve">
+    <value>DWS حذف شد تمامی قوانین فایروال مربوط به</value>
+  </data>
+  <data name="ReportABug" xml:space="preserve">
+    <value>گزارش باگ</value>
+  </data>
+  <data name="Restart" xml:space="preserve">
+    <value>نیازمند ریستارت , آیا ریستارت شود؟</value>
+  </data>
+  <data name="tabPageAbout" xml:space="preserve">
+    <value>درباره</value>
+  </data>
+  <data name="tabPageMain" xml:space="preserve">
+    <value>صفحه اصلی</value>
+  </data>
+  <data name="tabPageReadMe" xml:space="preserve">
+    <value>بخوانید</value>
+  </data>
+  <data name="tabPageSettings" xml:space="preserve">
+    <value>تنظیمات</value>
+  </data>
+  <data name="tabPageUtilites" xml:space="preserve">
+    <value>ابزارها</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>هشدار</value>
   </data>
 </root>

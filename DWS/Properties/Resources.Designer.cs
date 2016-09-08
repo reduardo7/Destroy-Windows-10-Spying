@@ -63,35 +63,6 @@ namespace DWS_Lite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap BGProgImg {
-            get {
-                object obj = ResourceManager.GetObject("BGProgImg", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 29-Oct-15 17:04:17.91 
-        ///.
-        /// </summary>
-        internal static string build_datatime {
-            get {
-                return ResourceManager.GetString("build_datatime", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to 574.
-        /// </summary>
-        internal static string build_number {
-            get {
-                return ResourceManager.GetString("build_number", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap close {
             get {
                 object obj = ResourceManager.GetObject("close", resourceCulture);
@@ -102,9 +73,19 @@ namespace DWS_Lite.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap donatebtn {
+        internal static System.Drawing.Bitmap close1 {
             get {
-                object obj = ResourceManager.GetObject("donatebtn", resourceCulture);
+                object obj = ResourceManager.GetObject("close1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap close2 {
+            get {
+                object obj = ResourceManager.GetObject("close2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -115,6 +96,26 @@ namespace DWS_Lite.Properties {
         internal static System.Drawing.Bitmap minimize {
             get {
                 object obj = ResourceManager.GetObject("minimize", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimize1 {
+            get {
+                object obj = ResourceManager.GetObject("minimize1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap minimize2 {
+            get {
+                object obj = ResourceManager.GetObject("minimize2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

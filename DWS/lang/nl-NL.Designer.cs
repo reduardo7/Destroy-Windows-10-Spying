@@ -8,15 +8,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-using System.CodeDom.Compiler;
-using System.ComponentModel;
-using System.Diagnostics;
-using System.Diagnostics.CodeAnalysis;
-using System.Globalization;
-using System.Resources;
-using System.Runtime.CompilerServices;
-
 namespace DWS_Lite.lang {
+    using System;
+    
+    
     /// <summary>
     ///   A strongly-typed resource class, for looking up localized strings, etc.
     /// </summary>
@@ -24,27 +19,27 @@ namespace DWS_Lite.lang {
     // class via a tool like ResGen or Visual Studio.
     // To add or remove a member, edit your .ResX file then rerun ResGen
     // with the /str option, or rebuild your VS project.
-    [GeneratedCode("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
-    [DebuggerNonUserCode()]
-    [CompilerGenerated()]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Resources.Tools.StronglyTypedResourceBuilder", "4.0.0.0")]
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+    [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
     internal class nl_NL {
         
-        private static ResourceManager resourceMan;
+        private static global::System.Resources.ResourceManager resourceMan;
         
-        private static CultureInfo resourceCulture;
+        private static global::System.Globalization.CultureInfo resourceCulture;
         
-        [SuppressMessage("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
+        [global::System.Diagnostics.CodeAnalysis.SuppressMessageAttribute("Microsoft.Performance", "CA1811:AvoidUncalledPrivateCode")]
         internal nl_NL() {
         }
         
         /// <summary>
         ///   Returns the cached ResourceManager instance used by this class.
         /// </summary>
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        internal static ResourceManager ResourceManager {
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Resources.ResourceManager ResourceManager {
             get {
-                if (ReferenceEquals(resourceMan, null)) {
-                    var temp = new ResourceManager("DWS_Lite.lang.nl-NL", typeof(nl_NL).Assembly);
+                if (object.ReferenceEquals(resourceMan, null)) {
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("DWS_Lite.lang.nl-NL", typeof(nl_NL).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;
@@ -55,8 +50,8 @@ namespace DWS_Lite.lang {
         ///   Overrides the current thread's CurrentUICulture property for all
         ///   resource lookups using this strongly typed resource class.
         /// </summary>
-        [EditorBrowsable(EditorBrowsableState.Advanced)]
-        internal static CultureInfo Culture {
+        [global::System.ComponentModel.EditorBrowsableAttribute(global::System.ComponentModel.EditorBrowsableState.Advanced)]
+        internal static global::System.Globalization.CultureInfo Culture {
             get {
                 return resourceCulture;
             }
@@ -66,7 +61,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Verwijder alle Windows 10 Metro apps.
+        ///   Looks up a localized string similar to Verwijder alle Metro apps (win10).
         /// </summary>
         internal static string btnDeleteAllWindows10Apps {
             get {
@@ -111,7 +106,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Voeg SPY domeinen aan het Hosts bestand toe, en blokkeer in Windows Firewall.
+        ///   Looks up a localized string similar to Voeg spionage domeinen aan het Hosts bestand toe, en blokkeer in Windows Firewall.
         /// </summary>
         internal static string checkBoxAddToHosts {
             get {
@@ -129,6 +124,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to 
+        ///Verwijder GWX.
+        /// </summary>
+        internal static string checkBoxDeleteGWX {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteGWX", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Verwijder Windows 10 Metro Apps.
         /// </summary>
         internal static string checkBoxDeleteWindows10Apps {
@@ -138,7 +143,16 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to schakel privacy instellingen uit.
+        ///   Looks up a localized string similar to Verwijder spionage updates.
+        /// </summary>
+        internal static string checkBoxDeleteWindows78Updates {
+            get {
+                return ResourceManager.GetString("checkBoxDeleteWindows78Updates", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Schakel privacy instellingen uit.
         /// </summary>
         internal static string checkBoxDisablePrivateSettings {
             get {
@@ -174,7 +188,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to schakel SPY services en taken uit.
+        ///   Looks up a localized string similar to Schakel spionage services en taken uit.
         /// </summary>
         internal static string checkBoxSPYTasks {
             get {
@@ -313,11 +327,11 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Dit Programma verwijderd de ingebouwde spyware in Windows 7, 8, 8.1 en 10.
+        ///   Looks up a localized string similar to Dit Programma verwijderd de ingebouwde spyware in Windows 7, 8, 8.1, Server 2008-2012 R2 en 10.
         ///Het programma is Open-Source, de broncode is te vinden op Github.
         ///Dit programma verwijderd alle spyware die is ingebouwd door Microsoft in Windows. Sommige Elementen van telematrie worden verwijderd, en de andere worden uitgeschakeld.
-        ///Het programma kan Windows Update uitschakelen, hierdoor blijf je anoniem omdat je geen nieuwe updates ontvangt van spyware.
-        ///De verwijder Metro apps functie werkt zeer goed, Metro apps draaien in de  [rest of string was truncated]&quot;;.
+        ///Het programma kan Windows Update uitschakelen, hierdoor blijf je annoniem omdat je geen nieuwe updates ontvangt van spyware.
+        ///De verwijder Metro apps functie werkt zeer goed, Metro a [rest of string was truncated]&quot;;.
         /// </summary>
         internal static string ReadMeTextBox {
             get {
@@ -335,7 +349,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Verwijder alle oude DWS Windows Firewall instellingen.
+        ///   Looks up a localized string similar to Verwijder oude DWS instellingen (firewall).
         /// </summary>
         internal static string RemoveAllOldFirewallRules {
             get {
@@ -399,7 +413,7 @@ namespace DWS_Lite.lang {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Extra`s.
+        ///   Looks up a localized string similar to Extra functies.
         /// </summary>
         internal static string tabPageUtilites {
             get {
